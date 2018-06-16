@@ -2,6 +2,7 @@
 Script to backup your Web Server
 
 BackupWS.sh
+
 RU
 Скрипт BackupWS.sh создаст файл бэкапа на вашем сервере по адресу /home/backup/ и будет иметь вид backup_2018-06-16.tar
 Если в каталоге были старые бекапы то удалит их.
