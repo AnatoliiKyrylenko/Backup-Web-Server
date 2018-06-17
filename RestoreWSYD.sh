@@ -27,4 +27,4 @@ umount /mnt/yandex.disk/
 /etc/init.d/mysql restart
 /etc/init.d/apache2 restart
 
-echo "Web.Server recuperated"
+echo "Web.Server restored"
