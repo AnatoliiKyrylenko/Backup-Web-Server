@@ -9,7 +9,7 @@
 Script to backup your Web Server
 
 EN info
-+ BackupWS.sh - script and instructions(see below) backup to local computer
++ BackupWS.sh - script backup to local computer
 + RestoreWS.sh - script restore with local computer
 + BackupWSYD.sh - script backup to disk.yandex.com
 + RestoreWSYD.sh - script restore with disk.yandex.com
