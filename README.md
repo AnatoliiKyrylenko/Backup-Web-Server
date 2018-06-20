@@ -1,7 +1,42 @@
 # Backup-Web-Server
+<p align="center">Backup Web Server | BASH SCRIPT</p>
+<p align="center">
+  <img src ="https://github.com/AnatoliiKyrylenko/Backup-Web-Server/blob/master/imageb1.png"/>
+      <img src ="https://github.com/AnatoliiKyrylenko/Backup-Web-Server/blob/master/imageb2.png"/>
+</p>
+
+
 Script to backup your Web Server
 
+EN info
+BackupWS.sh - script and instructions(see below) backup to local computer
+RestoreWS.sh - script restore with local computer
+BackupWSYD.sh - script backup to disk.yandex.com
+RestoreWSYD.sh - script restore with disk.yandex.com
+
 RU info
+BackupWS.sh - скрипт для бэкапа сервера на домашний компьютер
+RestoreWS.sh - скрипт для восстановления бэкапа сервера с домашнего компьютера
+BackupWSYD.sh - скрипт для бэкапа сервера на облако yandex
+RestoreWSYD.sh - скрипт для восстановления бэкапа сервера с облака yandex
+
+# Programming Languages:
+
+    BASH
+
+# System:
+
+    Linux
+
+# Tested  
+
+    Ubuntu 16
+
+# RUN
+
+\# bash ./BackupWS.sh (or any another script)
+
+# Explanation
 
 BackupWS.sh
 
