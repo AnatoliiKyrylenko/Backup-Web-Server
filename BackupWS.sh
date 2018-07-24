@@ -26,4 +26,5 @@ tar cfvP /home/backup/backup_$nowadays.tar /home/backup/*
 rm -rf /home/backup/*.tgz
 rm -rf /home/backup/*.gz
 
+# LAst message
 echo "Backup file created, see /home/backup/"
