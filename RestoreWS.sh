@@ -14,10 +14,7 @@ gunzip /home/backup/mysql.sql.gz
 mysql -u root -p < /home/backup/mysql.sql;
 
 # Cleanup work directory
-#rm -rf /home/backup/*
-
-# Umount Cloud
-umount /mnt/yandex.disk/
+rm -rf /home/backup/*
 
 # Restart mysqld & apache2
 /etc/init.d/mysql restart

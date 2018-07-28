@@ -28,7 +28,7 @@ tar cfvP /home/backup/backup_$nowadays.tar /home/backup/*
 mv /home/backup/backup_$nowadays.tar /mnt/yandex.disk/backup
 
 # Cleanup work directory
-#rm -rf /home/backup/*
+rm -rf /home/backup/*
 
 # Umount Cloud
 umount /mnt/yandex.disk/
