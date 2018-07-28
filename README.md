@@ -67,26 +67,31 @@ Restarting apache2 и mysql.
 ### Preparing (need for use yandex.disk)
 ---------------------------------------------------
 1. Installing utility davfs2 for mounting disk.yandex.com
-# apt-get install davfs2
-
+```
+apt-get install davfs2
+```
 2. Creating mount point: mnt/yandex.disk
-# mkdir /mnt/yandex.disk
-
+```
+mkdir /mnt/yandex.disk
+```
 Test
 ---------------------------------------------------
 1. Mount disk:
-# mount -t davfs https://webdav.yandex.ru /mnt/yandex.disk/
-
+```
+mount -t davfs https://webdav.yandex.ru /mnt/yandex.disk/
+```
 2. Just checking if everything's ok:
-# df -h /mnt/yandex.disk/
-
+```
+df -h /mnt/yandex.disk/
+```
 We get something similar:
 Filesystem                Size  Used Avail Use% Mounted on
 https://webdav.yandex.ru   50G  1000M   49G   2% /mnt/yandex.disk
 
 3 Unmount disk
+```
 sudo umount /mnt/yandex.disk/
-
+```
 ### BackupWSYD.sh
 Running on server.
 This script asks to authorize the yandex.disk, (need be registered).
