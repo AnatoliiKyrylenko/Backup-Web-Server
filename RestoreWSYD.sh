@@ -2,7 +2,7 @@
 # Restore Web Server + cloud disk.yandex.com
 
 # Mount Cloud disk.yandex.com
-/ount -t davfs https://webdav.yandex.ru /mnt/yandex.disk/
+mount -t davfs https://webdav.yandex.ru /mnt/yandex.disk/
 
 # Enter login & pass cloud disk.yandex.com
 
