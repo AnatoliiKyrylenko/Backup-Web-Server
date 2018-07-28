@@ -85,10 +85,11 @@ mount -t davfs https://webdav.yandex.ru /mnt/yandex.disk/
 df -h /mnt/yandex.disk/
 ```
 We get something similar:
+```
 Filesystem                Size  Used Avail Use% Mounted on
 https://webdav.yandex.ru   50G  1000M   49G   2% /mnt/yandex.disk
-
-3 Unmount disk
+```
+3. Unmount disk
 ```
 sudo umount /mnt/yandex.disk/
 ```
@@ -140,25 +141,32 @@ RestoreWS.sh восстановит файлы веб сервера, файлы
 ### Подготовка (нужна для использования облака yandex)
 ---------------------------------------------------
 1. Копирование файлов на disk.yandex.com происходит по протоколу WebDAV, посему следует установить утилиту davfs2
-# apt-get install davfs2
-
+```
+apt-get install davfs2
+```
 2. Создадим точку монтирования, папку на нашем сервере, куда будем кидать бэкапы: mnt/yandex.disk
-# mkdir /mnt/yandex.disk
-
+```
+mkdir /mnt/yandex.disk
+```
 Тест монтирования облака disk.yandex.com
 ---------------------------------------------------
 1. Монтируем диск:
-# mount -t davfs https://webdav.yandex.ru /mnt/yandex.disk/
-
+```
+mount -t davfs https://webdav.yandex.ru /mnt/yandex.disk/
+```
 2. Проверяем всё-ли у нас хорошо:
-# df -h /mnt/yandex.disk/
+```
+df -h /mnt/yandex.disk/
+```
 Если всё нормально, то мы получим примерно следующий результат:
+```
 Filesystem                Size  Used Avail Use% Mounted on
 https://webdav.yandex.ru   50G  1000M   49G   2% /mnt/yandex.disk
-
-3 Убедившичь что всё работает размонтируем облако
+```
+3. Убедившичь что всё работает размонтируем облако
+```
 sudo umount /mnt/yandex.disk/
-
+```
 ### BackupWSYD.sh
 Скрипт запускается на стороне сервера.
 Скрипт запрашует логин и пароль затем подключает облако yandex (нужно быть предварительно зарегистрированным).
