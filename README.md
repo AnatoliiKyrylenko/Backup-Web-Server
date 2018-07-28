@@ -44,14 +44,14 @@ Backup next
 
 # Explanation EN
 ### BackupWS.sh
-  Running on server.
-  This script asks to authorize the yandex.disk, (need be registered).
-  Create directory /home/backup/, & archiving /etc, /var/www, Database (MyaQL or MariaDB).
-  Ask root password at DateBase for copy Database
+Running on server.  
+This script asks to authorize the yandex.disk, (need be registered).  
+Create directory /home/backup/, & archiving /etc, /var/www, Database (MyaQL or MariaDB).  
+Ask root password at DateBase for copy Database  
 
-  Comand for copying backup to home PC
-  scp -p 22 user@your_web_ip:/home/backup/* /home/backup/
-  user - user name to server, your_web_ip - server ip
+Comand for copying backup to home PC  
+scp -p 22 user@your_web_ip:/home/backup/* /home/backup/  
+user - user name to server, your_web_ip - server ip  
 
 ### RestoreWS.sh
   Comand for copying backup to Web server
