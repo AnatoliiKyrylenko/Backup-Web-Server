@@ -28,3 +28,7 @@ rm -rf /home/backup/*.gz
 
 # LAst message
 echo "Backup file created, see /home/backup/"
+
+# Copying backup to your computer
+# Start on home computer
+# scp -p 22  user@your_web_ip:/home/backup/backup_* /home/backup/

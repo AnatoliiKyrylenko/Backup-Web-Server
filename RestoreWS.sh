@@ -2,7 +2,8 @@
 # Restore Web Server
 
 # Copying backup to our server
-scp -p 22 /home/backup/backup_2018-06-16.tar user@your_web_ip:/home/backup/
+# Start on your computer
+# scp -p 22 /home/backup/backup_* user@your_web_ip:/home/backup/
 
 # Extract sites & server & databases
 tar -xvf /home/backup/backup* -C /
