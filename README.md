@@ -45,9 +45,8 @@ Backup next
 # Explanation EN
 ### BackupWS.sh
 Running on server.  
-This script asks to authorize the yandex.disk, (need be registered).  
 Create directory /home/backup/, & archiving /etc, /var/www, Database (MyaQL or MariaDB).  
-Ask root password at DateBase for copy Database  
+Asks root password at DateBase for copy Database  
 
 Comand for copying backup to home PC  
 scp -p 22 user@your_web_ip:/home/backup/* /home/backup/  
@@ -61,8 +60,8 @@ Copying backup (need be only one file backup) to your server.
 
 Script need be running on server.   
 Unpacks directories /var/www & /etc.    
-Ask root passwor at DateBase for restoring.  
-Restarting apache2 и mysql.  
+Asks root passwor at DateBase for restoring.  
+Restarts apache2 и mysql.  
 
 ### Preparing (need for use yandex.disk)
 ---------------------------------------------------
@@ -97,18 +96,18 @@ sudo umount /mnt/yandex.disk/
 Running on server.  
 This script asks to authorize the yandex.disk, (need be registered).  
 Create directory /home/backup/, & archiving /etc, /var/www, Database (MyaQL or MariaDB).  
-Ask root passwor at DateBase for copy Database  
-Moveing backup to yandex.disk cloud.  
-Unmount yandex cloud.  
+Asks root passwor at DateBase for copy Database  
+Moves backup to yandex.disk cloud.  
+Unmounts yandex cloud.  
 
 ### RestoreWSYD.sh
 Running on server.  
 Script asks to authorize the yandex.disk.  
-Moveing backup (with yundex, need be only one file backup) to your server.  
+Moves backup (with yundex, need be only one file backup) to your server.  
 Unpacks directories /var/www & /etc.  
-Ask root passwor at DateBase for restoring.  
-Unmount yandex cloud.  
-Restarting apache2 и mysql.  
+Asks root passwor at DateBase for restoring.  
+Unmounts yandex cloud.  
+Restarts apache2 и mysql.  
 
 # Explanation RU
 ### BackupWS.sh
