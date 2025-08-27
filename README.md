@@ -11,14 +11,10 @@ Script to backup your Web Server
 EN info
 + BackupWS.sh - script backup to local computer
 + RestoreWS.sh - script restore with local computer
-+ BackupWSYD.sh - script backup to disk.yandex.com
-+ RestoreWSYD.sh - script restore with disk.yandex.com
 
 RU info
 + BackupWS.sh - скрипт для бэкапа сервера на домашний компьютер
 + RestoreWS.sh - скрипт для восстановления бэкапа сервера с домашнего компьютера
-+ BackupWSYD.sh - скрипт для бэкапа сервера на облако yandex
-+ RestoreWSYD.sh - скрипт для восстановления бэкапа сервера с облака yandex
 
 Backup next
 	/etc/
